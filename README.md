@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Python, R and Google Earth Engine (GEE) scripts for processing and extracting 
+Python and Google Earth Engine (GEE) scripts for processing and extracting 
 SAR-derived backscatter metrics and polarimetric variables from L-band (NISAR, UAVSAR) 
 and C-band (Sentinel-1) data for vegetation and carbon applications.
 
@@ -34,12 +34,6 @@ and C-band (Sentinel-1) data for vegetation and carbon applications.
 ```python
 pip install polsartools rasterio numpy geopandas
 ```
-
-### R
-```r
-install.packages(c("terra", "sf", "dplyr", "ggplot2", "patchwork", "MetBrewer"))
-```
-
 ## Author
 
 Cesar Ivan Alvites Diaz — University of Florida
